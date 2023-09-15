@@ -1,0 +1,30 @@
+
+
+        <cdk-virtual-scroll-viewport itemSize="800" class="viewport">
+        <!--<div *cdkVirtualFor="let numbers of numb" class="number">
+            <app-image nos=numbers></app-image>
+        <app-virtual-component></app-virtual-component>
+        </div> -->
+
+        <div class="number">
+            <img src="https://images.pexels.com/photos/712319/pexels-photo-712319.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <app-virtual-component appScrollControl [distanceFromTop]="800"></app-virtual-component>
+          </div>
+          
+          <!-- Second Iteration -->
+          <div class="number">
+            <img src="https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <app-virtual-component ></app-virtual-component>
+          </div>
+          
+          <!-- Third Iteration -->
+          <div class="number">
+            <img src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <app-virtual-component ></app-virtual-component>
+          </div>
+    </cdk-virtual-scroll-viewport>
+    
+
+
+
+
